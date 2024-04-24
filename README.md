@@ -16,10 +16,10 @@ There are currently 8 exercises in the lab, and others will be added soon. It is
   - [2. Scrape and ingest data and populate Pinecone DB](#2-scrape-and-ingest-data-and-populate-pinecone-db)
   - [3. Explore your data via Pinecone DB](#3-explore-your-data-via-pinecone-db)
   - [4. Deploy a CML application](#4-deploy-a-cml-application)
-  <!-- - [5. Switch Vector DB to Chroma DB](#5-switch-vector-db-to-chroma-db)
+  - [5. Switch Vector DB to Chroma DB](#5-switch-vector-db-to-chroma-db)
   - [6. Langchain](#6-langchain)
   - [7. Use a locally hosted LLama2 model](#7-use-a-locally-hosted-llama2-model)
-  - [8. Launch Final Application](#8-launch-final-application) -->
+  - [8. Launch Final Application](#8-launch-final-application)
 
 ## 0. Getting into CML
 
@@ -173,7 +173,7 @@ Also, note the parameters towards the bottom that you can configure to change th
 
 :pencil2: One of the key capabilities of CML is the hosting Applications integrated as part of the Data Science workflow. Practitioners can iterate rapidly and securely share insights, features, and prototypes to interested stakeholders. 
 
-<!-- ## 5. Switch Vector DB to Chroma DB
+## 5. Switch Vector DB to Chroma DB
 
 We'll continue to explore CML's modularity for hosting LLM applications. We will now switch over to a Chroma DB. This may be a good choice customers who are not able to use external vector databases, and need everything to be hosted in-house. Fundamentally, a good LLM application offers design flexibility, by allowing users to switch out the models or vector db components per business requirements.
 
@@ -252,4 +252,4 @@ To get started, we're going to revisit the application that we created in step 4
 ![Alt-text](./assets/step_8-10.png)
 
 ## :tada: Congratulations! :tada:
-You've learned a lot in the last few hours, but this is just the beginning. [Cloudera Machine Learning](https://www.cloudera.com/products/machine-learning.html) has a lot more to offer for your enterprise as part of an overall [Cloudera Data Platform](https://www.cloudera.com/) on-prem and in the cloud.  -->
+You've learned a lot in the last few hours, but this is just the beginning. [Cloudera Machine Learning](https://www.cloudera.com/products/machine-learning.html) has a lot more to offer for your enterprise as part of an overall [Cloudera Data Platform](https://www.cloudera.com/) on-prem and in the cloud. 
