@@ -363,12 +363,14 @@ def get_llama2_response_with_context(question, context, temperature, token_count
     
     if context == "":
         # Following LLama's spec for prompt engineering
-        llama_inst = f"Please answer the user question.[/INST]</s>"
-        question_and_context = f"{llama_sys} {llama_inst} \n [INST] {question} [/INST]"
+        # llama_inst = f"Please answer the user question.[/INST]</s>"
+        # question_and_context = f"{llama_sys} {llama_inst} \n [INST] {question} [/INST]"
+        question_and_context = question
     else:
         # Add context to the question
-        llama_inst = f"Anser the user's question based on the folloing information:\n {context}[/INST]</s>"
-        question_and_context = f"{llama_sys} {llama_inst} \n[INST] {question} [/INST]"
+        # llama_inst = f"Anser the user's question based on the folloing information:\n {context}[/INST]</s>"
+        # question_and_context = f"{llama_sys} {llama_inst} \n[INST] {question} [/INST]"
+        question_and_context = question
         
     try:
         # Build a request payload for CML hosted model
